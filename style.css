@@ -102,6 +102,10 @@ main h3 {
     font-family: var(--fonte-titulo2);
     text-indent: 30px;
 }
+main h4{
+    font-family: var(--fonte-titulo2);
+    text-indent: 30px;
+}
 main p {
     margin: 15px 0px 15px 0px;
     text-align: justify;
@@ -117,7 +121,7 @@ aside {
 }
 
 aside p {
-    line-height: 1em;
+    line-height: 2em;
 }
 aside > ul {
     list-style: none;
@@ -128,6 +132,9 @@ aside img {
 
 }
 
+.maps{
+    text-align: center;
+}
 .galeria-container{
     display: flex;
     flex-wrap: wrap;
