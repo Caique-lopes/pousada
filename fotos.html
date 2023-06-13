@@ -13,6 +13,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pousada Recanto Verde Mar</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css" href="fotos.css">
 </head>
 <body >
     <!-- Google Tag Manager (noscript) -->
@@ -31,76 +32,79 @@
         <a href="index.html#contato">Contato</a>
     </nav>
     <main>
-        <div class="galeria-container">
-            <a href="fotos/Frente da pousada.jpeg" class="galeria-itens">
-                <img src="fotos/Frente da pousada.jpeg" alt="img pousada recanto verde mar">               
-            </a>
-            <a href="fotos/frente da pousada2 (1).jpeg" class="galeria-itens">
-                <img src="fotos/frente da pousada2 (1).jpeg" alt="">
-            </a>
-            <a href="fotos/frente da pousada2 (2).jpeg" class="galeria-itens">
-                <img src="fotos/frente da pousada2 (2).jpeg" alt="">
-            </a> 
-            <a href="fotos/Frente dos quartos (1).jpeg" class="galeria-itens">
-                <img src="fotos/Frente dos quartos (1).jpeg" alt="">
-            </a> 
-            <a href="fotos/Frente dos quartos (2).jpeg" class="galeria-itens">
-                <img src="fotos/Frente dos quartos (2).jpeg" alt="">
-            </a> 
-            <a href="fotos/area verde (1).jpeg" class="galeria-itens">
-                <img src="fotos/area verde (1).jpeg" alt="">
-            </a> 
-            <a href="fotos/area verde (2).jpeg" class="galeria-itens">
-                <img src="fotos/area verde (2).jpeg" alt="">
-            </a> 
-            <a href="fotos/area verde (3).jpeg" class="galeria-itens">
-                <img src="fotos/area verde (3).jpeg" alt="">
-            </a> 
-            <a href="fotos/pano quarto.jpeg" class="galeria-itens">
-                <img src="fotos/pano quarto.jpeg" alt="">
-            </a> 
-            <a href="fotos/quanrto (1).jpeg" class="galeria-itens">
-                <img src="fotos/quanrto (1).jpeg" alt="">
-            </a> 
-            <a href="fotos/quanrto (2).jpeg" class="galeria-itens">
-                <img src="fotos/quanrto (2).jpeg" alt="">
-            </a> 
-            <a href="fotos/quanrto (3).jpeg" class="galeria-itens">
-                <img src="fotos/quanrto (3).jpeg" alt="">
-            </a> 
-            <a href="fotos/quanrto (4).jpeg" class="galeria-itens">
-                <img src="fotos/quanrto (4).jpeg" alt="">
-            </a> 
-            <a href="fotos/quanrto (5).jpeg" class="galeria-itens">
-                <img src="fotos/quanrto (5).jpeg" alt="">
-            </a> 
-            <a href="fotos/quanrto (5).jpeg" class="galeria-itens">
-                <img src="fotos/quanrto (5).jpeg" alt="">
-            </a> 
-            <a href="fotos/quanrto (6).jpeg" class="galeria-itens">
-                <img src="fotos/quanrto (6).jpeg" alt="">
-            </a> 
-            <a href="fotos/quarot.jpeg" class="galeria-itens">
-                <img src="fotos/quarot.jpeg" alt="">
-            </a> 
-            <a href="fotos/banheiro (1).jpeg" class="galeria-itens">
-                <img src="fotos/banheiro (1).jpeg" alt="">
-            </a> 
-            <a href="fotos/banheiro (2).jpeg" class="galeria-itens">
-                <img src="fotos/banheiro (2).jpeg" alt="">
-            </a> 
-            <a href="fotos/banheiro (3).jpeg" class="galeria-itens">
-                <img src="fotos/banheiro (3).jpeg" alt="">
-            </a> 
-            <a href="fotos/fundo (1).jpeg" class="galeria-itens">
-                <img src="fotos/fundo (1).jpeg" alt="">
-            </a> 
-            <a href="fotos/fundo (2).jpeg" class="galeria-itens">
-                <img src="fotos/fundo (2).jpeg" alt="">
-            </a> 
-            <a href="fotos/fundo (3).jpeg" class="galeria-itens">
-                <img src="fotos/fundo (3).jpeg" alt="">
-            </a>
-       </div> 
-
+        <div class="gallery">
+            <div class="main-slide">
+              <img id="main-image" src="fotos/Frente da pousada.jpeg">
+              <button class="prev" onclick="changeImage(-1)">&#10094;</button>
+              <button class="next" onclick="changeImage(1)">&#10095;</button>
+            </div>
+        
+            <div class="thumbnail-container">
+              <div class="thumbnail" onclick="showImage(0)">
+                <img src="fotos/Frente da pousada.jpeg">
+              </div>
+              <div class="thumbnail" onclick="showImage(1)">
+                <img src="fotos/frente da pousada2 (1).jpeg">
+              </div>
+              <div class="thumbnail" onclick="showImage(2)">
+                <img src="fotos/frente da pousada2 (2).jpeg">
+              </div>
+              <div class="thumbnail" onclick="showImage(3)">
+                <img src="fotos/quanrto (2).jpeg">
+              </div>
+              <div class="thumbnail" onclick="showImage(4)">
+                <img src="fotos/quanrto (5).jpeg">
+              </div>
+              <div class="thumbnail" onclick="showImage(5)">
+                <img src="fotos/quanrto (6).jpeg">
+              </div>
+              <div class="thumbnail" onclick="showImage(6)">
+                <img src="fotos/quarot.jpeg">
+              </div>
+              <div class="thumbnail" onclick="showImage(7)">
+                <img src="fotos/quanrto (4).jpeg">
+              </div>
+              <div class="thumbnail" onclick="showImage(8)">
+                <img src="fotos/quanrto (1).jpeg">
+              </div>
+              <div class="thumbnail" onclick="showImage(9)">
+                <img src="fotos/pano quarto.jpeg">
+              </div>
+              <div class="thumbnail" onclick="showImage(10)">
+                <img src="fotos/banheiro (1).jpeg">
+              </div>
+              <div class="thumbnail" onclick="showImage(11)">
+                <img src="fotos/banheiro (2).jpeg">
+              </div>
+              <div class="thumbnail" onclick="showImage(12)">
+                <img src="fotos/banheiro (3).jpeg">
+              </div>
+              <div class="thumbnail" onclick="showImage(13)">
+                <img src="fotos/fundo (1).jpeg">
+              </div>
+              <div class="thumbnail" onclick="showImage(14)">
+                <img src="fotos/quanrto (3).jpeg">
+              </div>
+              <div class="thumbnail" onclick="showImage(15)">
+                <img src="fotos/fundo (2).jpeg">
+              </div>
+              <div class="thumbnail" onclick="showImage(16)">
+                <img src="fotos/fundo (3).jpeg">
+              </div>
+              <div class="thumbnail" onclick="showImage(17)">
+                <img src="fotos/area verde (3).jpeg">
+              </div>
+              <div class="thumbnail" onclick="showImage(18)">
+                <img src="fotos/area verde (2).jpeg">
+              </div>
+              <div class="thumbnail" onclick="showImage(19)">
+                <img src="fotos/area verde (1).jpeg">
+              </div>
+              <!-- Adicione mais divs de miniaturas com as imagens desejadas -->
+            </div>
+          </div>
+        
+          <script src="script.js"></script>
     </main>
+</body>
+</html>
